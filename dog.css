@@ -1,0 +1,128 @@
+/*dog */
+
+
+#triangle_b
+{ 
+	width: 0; 
+	height: 0; 
+	border-left: 200px solid transparent; 
+	border-right: 200px solid transparent; 
+	border-bottom: 350px solid black; 
+	position: fixed;
+	left: 335px;
+	top: 325px;
+	}
+#ear_l
+{ 
+	width: 0; height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid black;
+	border-bottom: 150px solid transparent;
+	position: absolute;
+	left: 300px;
+	top: 80px;
+	transform: rotate(-110deg);
+	transition: all 0.1s ease-in;
+	}
+	
+#ear_r
+{ 
+	width: 0; height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid black;
+	border-bottom: 150px solid transparent;
+	position: absolute;
+	left: 650px;
+	top: 80px;
+	transform: rotate(-200deg);
+	transition: all 0.1s ease-in;
+	}
+	
+	
+#mouth
+{ 
+	width: 250px;
+	height: 100px;
+	background-color: black;
+	position: fixed;
+	left: 400px;
+	top:225px ; } 
+	
+	
+#face
+{ 
+	width: 200px;
+	height: 125px;
+	background-color: black;
+	position: fixed;
+	left: 425px;
+	top:100px ;} 
+	
+	
+#face_mouth_h
+{ 
+	width: 200px;
+	height: 2px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 425px;
+	top:223px ;} 
+	
+#face_mouth_v
+{ 
+	width: 2px;
+	height: 100px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 535px;
+	top:225px ;} 	
+		
+#l_eye, #r_eye {
+	background: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 200px;
+	border-radius: 10px;
+}
+	
+#l_eye {left: 465px;}
+#r_eye {left: 565px;}	
+	
+	/*comportamiento*/
+
+#ear_l:hover{
+	transform: rotate(-90deg) translate(0, -30px);
+
+}
+
+#ear_r:hover{
+	transform: rotate(-220deg) translate(-30px,0);
+
+}
+
+#bot_l
+{ 
+	width: 0; 
+	height: 0; 
+	border-left: 50px solid transparent; 
+	border-right: 50px solid transparent; 
+	border-bottom: 150px solid #1A1A1A; 
+	position: fixed;
+	transform: rotate(48deg);
+	left: 310px;
+	top: 510px;
+	}
+#bot_r
+{ 
+	width: 0; 
+	height: 0; 
+	border-left: 50px solid transparent; 
+	border-right: 50px solid transparent; 
+	border-bottom: 150px solid #1A1A1A; 
+	position: fixed;
+	transform: rotate(-48deg);
+	left: 660px;
+	top: 510px;
+	}	
+
